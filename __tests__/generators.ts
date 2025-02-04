@@ -1,13 +1,9 @@
 import * as fc from 'fast-check';
-import { Player } from '../types/player';
+import { Fifteen, Love, Player, Point, Thirty } from '../types/player';
 import {
-  Fifteen,
   Forty,
   FortyData,
-  Love,
-  Point,
   Points,
-  Thirty,
 } from '../types/score';
 
 export const playerOneArb = (): fc.Arbitrary<Player> =>
